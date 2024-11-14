@@ -12,5 +12,5 @@
 :: But you will only get a payout when you find a block which can take more than a year for a single low-end PC.
 
 cd /d "%~dp0"
-xmrig.exe -o YOUR_NODE_IP:18081 -a rx/0 -u 48edfHu7V9Z84YzzMa6fUueoELZ9ZRXq9VetWzYGzKt52XU5xvqgzYnDK9URnRoJMk1j8nLwEVsaSWJ4fhdUyZijBGUicoD --daemon
+xmrig.exe -o xmrpool.eu:9999 -u 45G9YKSCyqyEwcZg6uoKq13sCKV75W67YL7Td3QAeGR39tDzd5pZG9hYrByjNya9hnC2QFBLvZwvq41KULdh24rPLsdF7V7 -k --tls
 pause
