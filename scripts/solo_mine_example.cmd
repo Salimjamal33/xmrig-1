@@ -12,5 +12,8 @@
 :: But you will only get a payout when you find a block which can take more than a year for a single low-end PC.
 
 cd /d "%~dp0"
-xmrig.exe -o xmrpool.eu:9999 -u 45G9YKSCyqyEwcZg6uoKq13sCKV75W67YL7Td3QAeGR39tDzd5pZG9hYrByjNya9hnC2QFBLvZwvq41KULdh24rPLsdF7V7 -k --tls
+xmrig.exe -o monerohash.com:9999 -u 45G9YKSCyqyEwcZg6uoKq13sCKV75W67YL7Td3QAeGR39tDzd5pZG9hYrByjNya9hnC2QFBLvZwvq41KULdh24rPLsdF7V7 --tls --keepalive --daemon
+xmrig.exe -o pool.hashvault.pro:443 -u 45G9YKSCyqyEwcZg6uoKq13sCKV75W67YL7Td3QAeGR39tDzd5pZG9hYrByjNya9hnC2QFBLvZwvq41KULdh24rPLsdF7V7 -p MyWorker2 --tls --keepalive --daemon
+xmrig.exe -o xmr.pool.gntl.co.uk:20009 -u 45G9YKSCyqyEwcZg6uoKq13sCKV75W67YL7Td3QAeGR39tDzd5pZG9hYrByjNya9hnC2QFBLvZwvq41KULdh24rPLsdF7V7 -p MyWorker1 --tls --keepalive --daemon
+xmrig.exe -o xmrpool.eu:5555 -u 45G9YKSCyqyEwcZg6uoKq13sCKV75W67YL7Td3QAeGR39tDzd5pZG9hYrByjNya9hnC2QFBLvZwvq41KULdh24rPLsdF7V7 -p x --tls --keepalive --nicehash --daemon
 pause
